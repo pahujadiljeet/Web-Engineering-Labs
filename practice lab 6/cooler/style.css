@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1200px;
+    height: 80vh;
+    border: 5px solid black;
+}
+
+.ball {
+    height: 80vh;
+    width: 1200px;
+    border: 2px solid black;
+}
