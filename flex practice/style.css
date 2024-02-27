@@ -1,0 +1,46 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+#navbar {
+    height: 55px;
+    background-color: #0f1111;
+    border: 3px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 3px;
+}
+
+#logo {
+    font-size: 25px;
+    color: #f08804;
+}
+
+button {
+    background-color: #f08804;
+}
+
+a {
+    color: white;
+    margin-right: 150px;
+    text-decoration: none;
+}
+
+.contentbox {
+    height: 100px;
+    width: 100px;
+    border:2px solid black;
+    display: inline-block
+}
+
+#content {
+    height: 488px;
+}
+
+footer {
+    background-color: #0f1111;
+    color: white;
+    text-align: center;
+}
