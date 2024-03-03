@@ -1,0 +1,26 @@
+.container{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
+    background-color: gray;
+}
+.child-1{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+}
+.child-2{
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+}
+.child-3{
+    height: 200px;
+    width: 200px;
+    background-color: bisque;
+}
+.child-4{
+    height: 200px;
+    width: 200px;
+    background-color: chartreuse;
+}
