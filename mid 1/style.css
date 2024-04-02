@@ -1,3 +1,9 @@
-.container {
+.container{
     border: 2px, solid, black;
+}
+.prev{
+    nav-left: auto;
+}
+.next{
+    nav-right: auto;
 }
