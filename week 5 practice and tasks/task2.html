@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Task 2</title>
+</head>
+<body>
+    <p id="paragraph"></p>
+
+    <script>
+        // Define the car object with properties: brand, model, and year
+        let car = {
+            brand: 'Toyota',
+            model: 'Camry',
+            year: 2022
+        };
+
+        // Define the carInfo function
+        function carInfo(carObject) {
+            return `The ${carObject.brand} ${carObject.model} was manufactured in ${carObject.year}.`;
+        }
+        // console.log(carInfo(car)); 
+        let info = document.getElementById("paragraph").innerHTML = carInfo(car);
+
+    </script>
+</body>
+</html>
